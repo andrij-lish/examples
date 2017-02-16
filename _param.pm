@@ -147,7 +147,6 @@ sub parse (\@;\%) {
       }
    } else {
       while (defined ($one = shift @$param)) {
-#         print "$one\n";
          if ($block) {
             if ($one eq ')') {
                $block = '';
